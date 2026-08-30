@@ -1,6 +1,10 @@
 {
-  "name": "CymbalMart Party Planner Shopping Agent",
-  "description": "AI-powered party planner and shopping agent for CymbalMart. Converts host intent into a curated, budget-conscious grocery and party supplies list with aisle routing, brand savings swaps, and seamless checkout.",
-  "requestFramePermissions": ["microphone"],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "name": "CymbalMart Shopping Agent",
+  "description": "Party Planner Shopping Agent for CymbalMart based on the Critical User Journey (CUJ) for busy hosts to convert intent into a curated, budget-conscious shopping list with aisle routing, brand savings swaps, and seamless checkout.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

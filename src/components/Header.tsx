@@ -59,7 +59,7 @@ export const Header: React.FC<HeaderProps> = ({
                 </span>
                 <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-amber-100 text-amber-900 border border-amber-200/80">
                   <Sparkles className="w-3 h-3 mr-1 text-amber-600" />
-                  Party Shopping Agent
+                  Shopping Agent
                 </span>
               </div>
               <div className="flex items-center gap-1.5 text-xs text-slate-500 truncate font-medium">

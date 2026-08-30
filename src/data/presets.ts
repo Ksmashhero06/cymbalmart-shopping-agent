@@ -18,6 +18,24 @@ export interface PartyPreset {
 
 export const PARTY_PRESETS: PartyPreset[] = [
   {
+    id: 'tropical-birthday',
+    title: 'Tropical Island Paradise Birthday Bash',
+    theme: 'Tropical',
+    partyType: 'birthday',
+    durationHours: 4,
+    headcount: { adults: 18, teens: 2, kids: 0, total: 20 },
+    budget: { target: 450, tier: 'moderate', currency: '$' },
+    barType: 'full_bar',
+    venue: 'Backyard Oasis & Tiki Patio',
+    vibe: 'Festive tropical tiki lanterns, coconut & passion fruit cocktails, grilled pineapple skewers, vibrant birthday balloons',
+    dietaryRestrictions: [
+      { restriction: 'Gluten-Free', count: 3 },
+      { restriction: 'Vegetarian', count: 2 }
+    ],
+    tag: 'Tropical Birthday (20 Guests)',
+    iconName: 'PartyPopper'
+  },
+  {
     id: 'backyard-bbq',
     title: 'Summer Backyard Smokehouse & Lawn Games',
     theme: 'Rustic BBQ & Craft Beer',
